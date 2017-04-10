@@ -4,7 +4,7 @@ Use these commands in chat by using the bot's trigger (! by default) followed by
 
 ## Users
 |Command Name|Arguments|Description|
-|:----------:|:-------:|-----------|
+|:----------:|---------|-----------|
 |8ball       |`<any text>` | Asks the Magic 8 Ball a question.
 |about       | | Displays bot's "about" message.
 |anagram     |`<7-30 character string>` | Returns an anagram of the given word(s), retrieved from www.anagramgenius.com.
@@ -28,12 +28,12 @@ Use these commands in chat by using the bot's trigger (! by default) followed by
 
 ## RDJ
 |Command Name|Arguments|Description|
-|:----------:|:-------:|-----------|
+|:----------:|---------|-----------|
 |link        | | Returns the link of the song currently playing.
 
 ## Bouncers
 |Command Name|Arguments|Description|
-|:----------:|:-------:|-----------|
+|:----------:|---------|-----------|
 |afktime     |`[@username//#userID]` | Returns the amount of time a user has been inactive. Gets your own info if no valid argument.
 |dclookup    |`[@username//userID]` | Returns a user's last disconnect time and position. Use their ID if they are not present in the room.
 |english     |`<@username>` | Notify a user in their language to speak English if it is required.
@@ -45,18 +45,18 @@ Use these commands in chat by using the bot's trigger (! by default) followed by
 
 ## Managers
 |Command Name|Arguments|Description|
-|:----------:|:-------:|-----------|
+|:----------:|---------|-----------|
 |blacklist   |`<blacklist name>` `<add, remove//rem>` `<youtube//yt//1, soundcloud//sc//2>` `<video ID//track ID>` | Adds or removes songs to/from a given blacklist.
 |disable     |`<command name>` | Disable a command.
 |enable      |`<command name>` | Enable a command.
 |kick        |`@username`| Bans a user from the room and unbans them 2.5 seconds later, simulating a kick.
-|set         |`<option>` `<value>` | Sets a bot option to the given value. If no value is given, returns the current value of it. [Valid options.](_setoptions.md)
+|set         |`<option>` `<value>` | Sets a bot option to the given value. If no value is given, returns the current value of it. [Valid options.](setoptions.md)
 |swap        |`@user1` `@user2` | Swaps positions of two users in the waitlist. At least one must be in the waitlist.
 
 ## Hosts
 |Command Name|Arguments|Description|
-|:----------:|:-------:|-----------|
-|kill        || Kills the bot session.
+|:----------:|---------|-----------|
+|kill        |         | Kills the bot session.
 
 # Custom Commands
 ---------
