@@ -38,7 +38,7 @@
 /saveseen       |/ss     |            |Writes current data of seen users to data/seenUsers.json            |
 /set            |        |`<name of BotSettings option>` `<value to set>` |Changes the value of a given BotSettings option, if valid.  |`/set timestampColor cyan`, `/set welcomeusers true`        
 /setplaylist    |/setpl  |`playlistID`    |Activates a playlist **on your account** with the given playlistID. |`/setpl 45678901`       
-/skip           |        |`<t`|r`|o`|l`|s>`     |Skips the current song with a predefined reason. T=Theme,R=RepeatOffender,O=OP,L=Language,S=Sound. All options but R will bring the DJ back up the list.   | `/skip s`
+/skip           |        |`<t,r,o,l,s>`     |Skips the current song with a predefined reason. T=Theme,R=RepeatOffender,O=OP,L=Language,S=Sound. All options but R will bring the DJ back up the list.   | `/skip s`
 /stafflist      |        |            |Downloads the staff list and saves it to data/staffList_(roomslug).txt. Will overwrite.         |
 /syncusers      |        |            |Gets the list of users from the server. Should only be used if the userlist screws up or has "unavailable" users, which it shouldn't.        |   
 /trigger        |        |`[trigger char]`    |Displays current trigger. If valid argument is given, sets the trigger to given argument.   |`/trigger $`        
