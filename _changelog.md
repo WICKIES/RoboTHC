@@ -1,0 +1,18 @@
+- April 9, 2017
+  - 4.20.03 Custom
+    - Changes
+      - Added Cleverbot integration
+      - Added /skip
+      - Setup variables for quick settings change
+- March 19, 2017
+  - 4.20.02 custom
+    - Changes
+      - Added MaxLength variable
+      - Added Catfact/Fact/Fortune/RoomScore Command
+- March 14, 2017
+  - 4.20.01 custom
+    - Changes
+      - Forked from original
+      - Added - Weed
+      - Added - HistorySkip setting
+      - Added - Custom commands
