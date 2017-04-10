@@ -34,19 +34,19 @@ Use these commands in chat by using the bot's trigger (! by default) followed by
 ## Bouncers
 |Command Name|Arguments|Description|
 |:----------:|:-------:|-----------|
-|afktime     |`[@username|#userID]` | Returns the amount of time a user has been inactive. Gets your own info if no valid argument.
-|dclookup    |`[@username|userID]` | Returns a user's last disconnect time and position. Use their ID if they are not present in the room.
+|afktime     |`[@username//#userID]` | Returns the amount of time a user has been inactive. Gets your own info if no valid argument.
+|dclookup    |`[@username//userID]` | Returns a user's last disconnect time and position. Use their ID if they are not present in the room.
 |english     |`<@username>` | Notify a user in their language to speak English if it is required.
-|jointime    |`[@username|#userID]` | Returns amount of time since the given user entered the room. Gets your own info if no valid argument.
-|seentime    |`[@username|#userID]` | Returns the total amount of time a user has been seen in the room. Gets your own info if no valid argument.
+|jointime    |`[@username//#userID]` | Returns amount of time since the given user entered the room. Gets your own info if no valid argument.
+|seentime    |`[@username//#userID]` | Returns the total amount of time a user has been seen in the room. Gets your own info if no valid argument.
 |skip        |`[reason]` | Skips current song with optional reason, if valid.
 |skipreasons || Lists reasons that can be used with !skip.
-|stats       |`[@username|#userID]` | Returns the user's recorded amount of plays and votes received. Gets your own info if no valid argument.
+|stats       |`[@username//#userID]` | Returns the user's recorded amount of plays and votes received. Gets your own info if no valid argument.
 
 ## Managers
 |Command Name|Arguments|Description|
 |:----------:|:-------:|-----------|
-|blacklist   |`<blacklist name>` `<add//remove|rem>` `<youtube|yt|1//soundcloud|sc|2>` `<video ID//track ID>` | Adds or removes songs to/from a given blacklist.
+|blacklist   |`<blacklist name>` `<add, remove//rem>` `<youtube//yt//1, soundcloud//sc//2>` `<video ID//track ID>` | Adds or removes songs to/from a given blacklist.
 |disable     |`<command name>` | Disable a command.
 |enable      |`<command name>` | Enable a command.
 |kick        |`@username`| Bans a user from the room and unbans them 2.5 seconds later, simulating a kick.
