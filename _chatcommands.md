@@ -50,7 +50,7 @@ Use these commands in chat by using the bot's trigger (! by default) followed by
 |disable     |`<command name>` | Disable a command.
 |enable      |`<command name>` | Enable a command.
 |kick        |`@username`| Bans a user from the room and unbans them 2.5 seconds later, simulating a kick.
-|set         |`<option>` `<value>` | Sets a bot option to the given value. If no value is given, returns the current value of it. List of valid options: https://git.io/vyXgH 
+|set         |`<option>` `<value>` | Sets a bot option to the given value. If no value is given, returns the current value of it. [Valid options.](_setoptions.md)
 |swap        |`@user1` `@user2` | Swaps positions of two users in the waitlist. At least one must be in the waitlist.
 
 ## Hosts

@@ -21,7 +21,7 @@ These are the valid bot settings that can be changed through the "set" chat comm
 |autoStuckSkip            |`true` \| `false`|If true, checks to see if a song is playing 60 seconds past its actual length and skips it if it is.
 |doSkipCheck              |`true` \| `false`|If true, checks to see if a song should be skipped based on history/blacklist/etc. Will **NOT** skip the song, but is required to be true for doAutoSkip to work.
 |doAutoSkip               |`true` \| `false`|If true, autoskips songs if they are found in blacklists/etc. Requires doSkipCheck to be true.
-|doHistory                |`true` \| `false`|If true, autoskips songs if they are found in history. Requires doSkipCheck to be true.
+|doHistorySkip            |`true` \| `false`|If true, autoskips songs if they are found in history. Requires doSkipCheck to be true.
 |hostBypassAutoSkip       |`true` \| `false`|If true, the host of the room can bypass autoskip conditions unless the song is unavailable.
 |sendMOTD                 |`true` \| `false`|If true, sends the MOTD.
 |motdInterval             |`Number` **(MILLISECONDS)**|Amount of time between MOTD messages in MILLISECONDS, must be above 5000. Default is 1800000 (30 minutes). Restarts the timer if changed.
