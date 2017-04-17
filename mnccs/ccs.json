@@ -2,7 +2,7 @@
     "room": "♫Music Nation™♫ #AnyGenre*!",
     "author": "N8te420",
     "icon": null,
-    "css": "style.css",
+    "css": "https://github.com/N8teZero/RoboTHC/blob/master/mnccs/style.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
