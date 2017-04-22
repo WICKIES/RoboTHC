@@ -1,4 +1,4 @@
-# RoboTHC 4.20.03
+# RoboTHC // Abandoned plug.dj BOT 4.20.03
 ## [Changelog](changelog.md)
 NodeJS framework based on AuirBot by Zeratul0.
 
